@@ -2,287 +2,205 @@
 1983,"Transport",232500019
 1983,"Electricity Supply",230472241
 1983,"Manufacturing",236861130
-1983,"Mining",20861113
-1983,"Residential",75888895
 1983,"Commercial",29027780
 1983,"Other",41805559
 1984,"Transport",240027797
 1984,"Electricity Supply",235166685
 1984,"Manufacturing",246611131
-1984,"Mining",23111113
-1984,"Residential",76666673
 1984,"Commercial",29333336
 1984,"Other",43833337
 1985,"Transport",247805575
 1985,"Electricity Supply",250250020
 1985,"Manufacturing",259527799
-1985,"Mining",26916669
-1985,"Residential",78361117
 1985,"Commercial",30527780
 1985,"Other",42944448
 1986,"Transport",251750020
 1986,"Electricity Supply",248944464
 1986,"Manufacturing",261000021
-1986,"Mining",27194447
-1986,"Residential",80111118
 1986,"Commercial",32250003
 1986,"Other",43888892
 1987,"Transport",256138909
 1987,"Electricity Supply",260972243
 1987,"Manufacturing",268333355
-1987,"Mining",29166669
-1987,"Residential",82805562
 1987,"Commercial",34138892
 1987,"Other",44666670
 1988,"Transport",268333355
 1988,"Electricity Supply",267361133
 1988,"Manufacturing",274527800
-1988,"Mining",32416669
-1988,"Residential",82277784
 1988,"Commercial",35944447
 1988,"Other",45527781
 1989,"Transport",279138911
 1989,"Electricity Supply",291000023
 1989,"Manufacturing",289166690
-1989,"Mining",35916670
-1989,"Residential",83750007
 1989,"Commercial",37972225
 1989,"Other",47722226
 1990,"Transport",281222245
 1990,"Electricity Supply",296111135
 1990,"Manufacturing",296500024
-1990,"Mining",44416670
-1990,"Residential",89527785
 1990,"Commercial",40416670
 1990,"Other",47861115
 1991,"Transport",278611133
 1991,"Electricity Supply",295833357
 1991,"Manufacturing",298305579
-1991,"Mining",45722226
-1991,"Residential",91055563
 1991,"Commercial",41972226
 1991,"Other",45694448
 1992,"Transport",284527801
 1992,"Electricity Supply",303583358
 1992,"Manufacturing",287194467
-1992,"Mining",48944448
-1992,"Residential",92944452
 1992,"Commercial",42833337
 1992,"Other",46277781
 1993,"Transport",291555579
 1993,"Electricity Supply",304555580
 1993,"Manufacturing",296277801
-1993,"Mining",52583338
-1993,"Residential",96416674
 1993,"Commercial",44111115
 1993,"Other",48333337
 1994,"Transport",300277802
 1994,"Electricity Supply",308222247
 1994,"Manufacturing",308055580
-1994,"Mining",54055560
-1994,"Residential",95666674
 1994,"Commercial",45083337
 1994,"Other",50277782
 1995,"Transport",316472248
 1995,"Electricity Supply",322944470
 1995,"Manufacturing",314555581
-1995,"Mining",59194449
-1995,"Residential",99611119
 1995,"Commercial",48027782
 1995,"Other",51805560
 1996,"Transport",328194471
 1996,"Electricity Supply",336611138
 1996,"Manufacturing",315388914
-1996,"Mining",66000005
-1996,"Residential",102333342
 1996,"Commercial",51000004
 1996,"Other",52000004
 1997,"Transport",334166693
 1997,"Electricity Supply",345583361
 1997,"Manufacturing",320833359
-1997,"Mining",68861117
-1997,"Residential",104527786
 1997,"Commercial",52666671
 1997,"Other",54222227
 1998,"Transport",336166694
 1998,"Electricity Supply",374250030
 1998,"Manufacturing",327583360
-1998,"Mining",72638895
-1998,"Residential",106527786
 1998,"Commercial",55111116
 1998,"Other",54833338
 1999,"Transport",341250027
 1999,"Electricity Supply",393222254
 1999,"Manufacturing",331361138
-1999,"Mining",72416672
-1999,"Residential",106833342
 1999,"Commercial",56861116
 1999,"Other",54916671
 2000,"Transport",351833361
 2000,"Electricity Supply",396500032
 2000,"Manufacturing",331083360
-2000,"Mining",75694451
-2000,"Residential",108861120
 2000,"Commercial",58694449
 2000,"Other",58138894
 2001,"Transport",346972250
 2001,"Electricity Supply",418861145
 2001,"Manufacturing",330083360
-2001,"Mining",70527783
-2001,"Residential",110555564
 2001,"Commercial",59583338
 2001,"Other",55583338
 2002,"Transport",350305584
 2002,"Electricity Supply",428583368
 2002,"Manufacturing",335388916
-2002,"Mining",74666673
-2002,"Residential",108055564
 2002,"Commercial",61638894
 2002,"Other",57250005
 2003,"Transport",351638917
 2003,"Electricity Supply",435194479
 2003,"Manufacturing",326388915
-2003,"Mining",70638895
-2003,"Residential",114333342
 2003,"Commercial",69638894
 2003,"Other",58444449
 2004,"Transport",368833363
 2004,"Electricity Supply",462444481
 2004,"Manufacturing",315722247
-2004,"Mining",73500006
-2004,"Residential",115277787
 2004,"Commercial",71083339
 2004,"Other",60027783
 2005,"Transport",377250030
 2005,"Electricity Supply",474000038
 2005,"Manufacturing",323250026
-2005,"Mining",79416673
-2005,"Residential",114138898
 2005,"Commercial",71222228
 2005,"Other",59305560
 2006,"Transport",385611142
 2006,"Electricity Supply",480750038
 2006,"Manufacturing",342055583
-2006,"Mining",84111118
-2006,"Residential",116111120
 2006,"Commercial",72055561
 2006,"Other",58694449
 2007,"Transport",396027809
 2007,"Electricity Supply",502166707
 2007,"Manufacturing",349638917
-2007,"Mining",89416674
-2007,"Residential",118527787
 2007,"Commercial",75722228
 2007,"Other",57000005
 2008,"Transport",405000032
 2008,"Electricity Supply",506638929
 2008,"Manufacturing",335416694
-2008,"Mining",91583341
-2008,"Residential",119777787
 2008,"Commercial",76250006
 2008,"Other",57916671
 2009,"Transport",405583366
 2009,"Electricity Supply",531638931
 2009,"Manufacturing",325388915
-2009,"Mining",102611119
-2009,"Residential",121500010
 2009,"Commercial",77416673
 2009,"Other",59222227
 2010,"Transport",414111144
 2010,"Electricity Supply",487555595
 2010,"Manufacturing",349944472
-2010,"Mining",103416675
-2010,"Residential",123416677
 2010,"Commercial",79000006
 2010,"Other",60250005
 2011,"Transport",423444478
 2011,"Electricity Supply",467388926
 2011,"Manufacturing",369611141
-2011,"Mining",113194454
-2011,"Residential",126138899
 2011,"Commercial",80916673
 2011,"Other",59000005
 2012,"Transport",429888923
 2012,"Electricity Supply",479527816
 2012,"Manufacturing",337472249
-2012,"Mining",124472232
-2012,"Residential",125944455
 2012,"Commercial",79638895
 2012,"Other",58722227
 2013,"Transport",437222257
 2013,"Electricity Supply",444472258
 2013,"Manufacturing",355250028
-2013,"Mining",139138900
-2013,"Residential",126416677
 2013,"Commercial",82250007
 2013,"Other",58777782
 2014,"Transport",442277813
 2014,"Electricity Supply",434666701
 2014,"Manufacturing",346416694
-2014,"Mining",147083345
-2014,"Residential",120861121
 2014,"Commercial",80972229
 2014,"Other",58583338
 2015,"Transport",450916703
 2015,"Electricity Supply",458444481
 2015,"Manufacturing",312805581
-2015,"Mining",144777789
-2015,"Residential",123277788
 2015,"Commercial",88833340
 2015,"Other",59416671
 2016,"Transport",459694481
 2016,"Electricity Supply",471583371
 2016,"Manufacturing",311916692
-2016,"Mining",159888902
-2016,"Residential",123416677
 2016,"Commercial",87250007
 2016,"Other",62611116
 2017,"Transport",469472260
 2017,"Electricity Supply",461833370
 2017,"Manufacturing",303500024
-2017,"Mining",185083348
-2017,"Residential",126000010
 2017,"Commercial",87388896
 2017,"Other",62444449
 2018,"Transport",481694483
 2018,"Electricity Supply",444916702
 2018,"Manufacturing",306055580
-2018,"Mining",202694461
-2018,"Residential",124722232
 2018,"Commercial",88666674
 2018,"Other",64611116
 2019,"Transport",485166705
 2019,"Electricity Supply",435111146
 2019,"Manufacturing",300277802
-2019,"Mining",225666685
-2019,"Residential",126944455
 2019,"Commercial",86305562
 2019,"Other",59500005
 2020,"Transport",441638924
 2020,"Electricity Supply",423111145
 2020,"Manufacturing",293055579
-2020,"Mining",237111130
-2020,"Residential",131805566
 2020,"Commercial",82777784
 2020,"Other",57472227
 2021,"Transport",393972254
 2021,"Electricity Supply",404166699
 2021,"Manufacturing",289694468
-2021,"Mining",236222241
-2021,"Residential",134472233
 2021,"Commercial",80027784
 2021,"Other",64027783
 2022,"Transport",402166699
 2022,"Electricity Supply",390527809
 2022,"Manufacturing",285805578
-2022,"Mining",240527797
-2022,"Residential",138138900
 2022,"Commercial",82250007
 2022,"Other",62000005
 2023,"Transport",450583369
 2023,"Electricity Supply",382861142
 2023,"Manufacturing",276750022
-2023,"Mining",245305575
-2023,"Residential",134500011
 2023,"Commercial",85583340
 2023,"Other",58388894
