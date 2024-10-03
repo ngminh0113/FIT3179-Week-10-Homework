@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;               /* Full height */
+    margin: 0;                  /* Remove default margin */
+    display: flex;
+    flex-direction: column;     /* Stack elements vertically */
+    justify-content: center;    /* Center content vertically */
+    align-items: center;        /* Center content horizontally */
+  }
+
+  #symbol_map, #line_chart {
+    width: 800px;               /* Set a fixed width for charts */
+    height: 600px;              /* Set a fixed height for charts */
+  }
+
+  /* Remove the space between the two charts */
+  #line_chart {
+    margin-top: -100px;          /* Overlap or reduce space between the two charts */
+  }
