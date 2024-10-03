@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ngminh0113/FIT3179-Week-10-Homework/cadcf06403847d235b5a5dd7b15730c2d3c1d796/data/Energy_consumption_by_sector_w10.csv"
+  },
+  "width": 600,
+  "height": 300,
+  "title": "Energy consumption by Sector in Australia",
+  "params": [
+    {
+      "name": "SectorFilter",
+      "value": null,
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Transport",
+          "Electricity Supply",
+          "Manufacturing",
+          "Mining",
+          "Residential",
+          "Commercial",
+          "Other"
+        ],
+        "labels": [
+          "All Sectors",
+          "Transport",
+          "Electricity Supply",
+          "Manufacturing",
+          "Mining",
+          "Residential",
+          "Commercial",
+          "Other"
+        ],
+        "name": "Select a sector: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "SectorFilter == null || datum.Sector == SectorFilter"
+    },
+     {
+      "aggregate": [
+        {"op": "sum", "field": "Consumption (MWh)", "as": "TotalConsumption"}
+      ],
+      "groupby": ["Sector", "Year"]
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "timeUnit": "year",
+      "axis": {"title": "", "tickCount": 10, "grid": false}
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "TotalConsumption",
+      "type": "quantitative",
+      "axis": {"title": "Consumption (MWh)"}
+    },
+    "color": {
+      "field": "Sector",
+      "type": "nominal",
+      "legend": {"title": "Sector"}
+    },
+    "tooltip": [
+      {"field": "Year", "timeUnit": "year", "title": "Year"},
+      {"field": "Sector", "type": "nominal", "title": "Sector"},
+      {"field": "TotalConsumption", "type": "quantitative", "title": "Consumption (MWh)"}
+    ]
+  },
+  "layer": [
+    {
+      "mark": "line"
+    },
+    {
+      "mark": {
+        "type": "point", 
+        "filled": true,
+        "size": 20
+      },
+      "encoding": {
+        "x": {"field": "Year", "timeUnit": "year"},
+        "y": {"aggregate": "sum",
+      "field": "TotalConsumption",
+      "type": "quantitative",
+      "axis": {"title": "Consumption (MWh)"}}
+      }
+    },
+    {
+      "transform": [
+        {
+          "window": [{"op": "rank", "as": "ranking"}],
+          "sort": [{"field": "TotalConsumption", "order": "descending"}]
+        },
+        {"filter": "datum.ranking == 1"},
+        {
+          "calculate": "SectorFilter === null ? 'The sector with the highest energy consumption is ' + datum['Sector'] : 'The year with the highest energy consumption for the selected sector is: ' + year(datum['Year'])",
+          "as": "text_annotation"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -20,
+        "dy": -8,
+        "baseline": "middle",
+        "fontStyle": "italic",
+        "fontSize": 12,
+        "color": "blue" 
+      },
+      "encoding": {
+        "text": {"field": "text_annotation"}
+      }
+    }
+  ]
+}
