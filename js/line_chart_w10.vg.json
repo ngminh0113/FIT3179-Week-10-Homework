@@ -3,8 +3,8 @@
   "data": {
     "url": "https://raw.githubusercontent.com/ngminh0113/FIT3179-Week-10-Homework/cadcf06403847d235b5a5dd7b15730c2d3c1d796/data/Energy_consumption_by_sector_w10.csv"
   },
-  "width": 600,
-  "height": 300,
+  "width": "container",
+  "background": "#f4f4f4",
   "title": "Energy consumption by Sector in Australia",
   "params": [
     {
@@ -62,7 +62,10 @@
     "color": {
       "field": "Sector",
       "type": "nominal",
-      "legend": {"title": "Sector"}
+      "scale": {
+    "domain": ["Commercial", "Electricity Supply", "Manufacturing", "Mining", "Other", "Residential", "Transport"],
+    "range": ["#6b8ebd", "#f1943c", "#d87060", "#95c4c1", "#88b378", "#dbc95b", "#b395b4"]
+  }
     },
     "tooltip": [
       {"field": "Year", "timeUnit": "year", "title": "Year"},
@@ -79,13 +82,6 @@
         "type": "point", 
         "filled": true,
         "size": 20
-      },
-      "encoding": {
-        "x": {"field": "Year", "timeUnit": "year"},
-        "y": {"aggregate": "sum",
-      "field": "TotalConsumption",
-      "type": "quantitative",
-      "axis": {"title": "Consumption (MWh)"}}
       }
     },
     {
@@ -103,16 +99,24 @@
       "mark": {
         "type": "text",
         "align": "right",
-        "dx": -20,
-        "dy": -8,
+        "dx": -5,
+        "dy": -5,
         "baseline": "middle",
         "fontStyle": "italic",
-        "fontSize": 12,
+        "fontSize": 9,
         "color": "blue" 
       },
       "encoding": {
         "text": {"field": "text_annotation"}
       }
     }
-  ]
+  ],
+  "config": 
+    {"legend": {
+            "titleFont": "Josefin Sans",
+            "titleFontSize": 14,
+            "labelFont": "Josefin Sans",
+            "labelFontSize": 12
+        }
+      }
 }
